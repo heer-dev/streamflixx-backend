@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Or use specific mapping like "/media/**"
-                        .allowedOrigins("https://streamflix-lxpm.vercel.app")
+                        .allowedOrigins("http://localhost:3000","https://streamflix.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
