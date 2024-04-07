@@ -5,14 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function setupEndpointLinks() {
     const endpoints = [
-        { name: 'Register Customer', path: '/customers/register', method: 'POST', body: { firstName: "John", lastName: "Doe", email: "johndoe@example.com", password: "Password!23" } },
-        { name: 'Get Customer By ID', path: '/customers/{id}', method: 'GET' },
-        { name: 'Authenticate Customer', path: '/customers/authenticate', method: 'POST', body: { email: "johndoe@example.com", password: "Password!23" } },
+        { name: 'Register Customer', path: '/customers/register'},
+        { name: 'Get Customer By ID', path: '/customers/{id}'},
+        { name: 'Authenticate Customer', path: '/customers/authenticate'},
         { name: 'Add Media', path: '/media/add', method: 'POST', body: { name: "New Movie", synopsis: "Synopsis here", isMovie: true, smallPosterPath: "path/to/small/poster", largePosterPath: "path/to/large/poster", rentPrice: 2.99, purchasePrice: 9.99, price: 9.99, isFeatured: true } },
         { name: 'All Movies', path: '/media/movies', method: 'GET' },
         { name: 'All TV Shows', path: '/media/tvshows', method: 'GET' },
         { name: 'Search Media', path: '/media/search?title=someTitle', method: 'GET' },
-        { name: 'Featured Media', path: '/media/featured', method: 'GET' }
+        { name: 'Featured Media', path: '/media/featured', method: 'GET' },
+        { name: 'Get Media By ID', path: '/media/{id}'},
         // Add more endpoints as needed
     ];
 
