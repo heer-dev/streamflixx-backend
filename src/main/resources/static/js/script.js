@@ -5,9 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function setupEndpointLinks() {
     const endpoints = [
-        { name: 'Movies', path: '/media/movies' },
-        { name: 'TV Shows', path: '/media/tvshows' },
-        { name: 'Featured', path: '/media/featured' }
+        { name: 'Media', path: '/media' },
+        { name: 'Customer', path: '/customers' }
         // Add more endpoints as needed
     ];
 
