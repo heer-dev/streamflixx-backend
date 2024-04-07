@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8965c5b-ee9b-4351-bb7c-0e6e7741588f" name="Changes" comment="file">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/streamflixx/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1712339954934" duration="1032000" />
       <workItem from="1712341002601" duration="1966000" />
       <workItem from="1712356339485" duration="45000" />
-      <workItem from="1712509275282" duration="506000" />
+      <workItem from="1712509275282" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="file">
       <option name="closed" value="true" />

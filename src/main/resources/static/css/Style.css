@@ -9,3 +9,16 @@ body {
 h1 {
     color: #333;
 }
+
+#endpoint-list li a {
+    color: blue;
+    text-decoration: none;
+}
+
+#endpoint-list li a:hover {
+    text-decoration: underline;
+}
+
+#data-display {
+    margin-top: 20px;
+}
