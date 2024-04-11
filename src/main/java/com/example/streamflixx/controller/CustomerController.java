@@ -24,7 +24,15 @@ public class CustomerController {
 
     @PostMapping("/register")
     public ResponseEntity<?> registerCustomer(@RequestBody Customer customer) {
-        // Check if email already exists
+        if (customer.getFirstName() == null || customer.getFirstName().isEmpty() ||
+                customer.getLastName() == null || customer.getLastName().isEmpty() ||
+                customer.getEmail() == null || customer.getEmail().isEmpty() ||
+                customer.getPassword() == null || customer.getPassword().isEmpty()) {
+            return ResponseEntity
+                    .badRequest()
+                    .body("All fields are required.");
+        }
+
         if (customerRepository.findByEmail(customer.getEmail()).isPresent()) {
             return ResponseEntity
                     .status(HttpStatus.CONFLICT)

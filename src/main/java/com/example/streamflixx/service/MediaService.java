@@ -17,5 +17,4 @@ public class MediaService {
         return mediaRepository.findByIsFeaturedTrue();
     }
 
-    // Additional methods to interact with the repository
 }

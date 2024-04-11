@@ -74,7 +74,7 @@ public class MediaController {
     @GetMapping("/{id}")
     public ResponseEntity<?> getMediaById(@PathVariable String id)
     {
-        // Validate the ID format if needed, for example, checking if it's a valid MongoDB ObjectId
+        
         if (!isValidId(id)) {
             return ResponseEntity.badRequest().body("Invalid ID format");
         }

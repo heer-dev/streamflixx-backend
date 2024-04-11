@@ -10,7 +10,7 @@ public class Media {
     private String name;
     private Double price;
     private String synopsis;
-    private Boolean isMovie; // Ensure this matches with your repository queries
+    private Boolean isMovie; 
     private String smallPosterPath;
     private String largePosterPath;
     private Double rentPrice;
@@ -19,7 +19,6 @@ public class Media {
     private Boolean isFeatured;
     private String tag;
 
-    // Constructors
     public Media() {
     }
 
@@ -37,13 +36,13 @@ public class Media {
         this.tag=tag;
     }
 
-    // Getters and Setters
+    
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
-    public Double getPrice() { return price; } // Getter for the new price field
-    public void setPrice(Double price) { this.price = price; } // Setter for the new price field
+    public Double getPrice() { return price; } 
+    public void setPrice(Double price) { this.price = price; } 
     public String getSynopsis() { return synopsis; }
     public void setSynopsis(String synopsis) { this.synopsis = synopsis; }
     public Boolean getIsMovie() { return isMovie; }

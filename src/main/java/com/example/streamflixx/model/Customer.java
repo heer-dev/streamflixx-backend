@@ -1,5 +1,6 @@
 package com.example.streamflixx.model;
 
+
 import org.springframework.data.annotation.Id;
 
 public class Customer {
